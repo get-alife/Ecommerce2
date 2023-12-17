@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    .header{display: flex;}
+    .hright,.hmiddle,.hleft{padding-top: 10px;
+        margin-left: 100px;
+    width: 33%;
+    font-size: 20px;
+color: gray;
+}
+.navbar li{display: inline;}
+
+.navbar li a{text-decoration: none;
+padding-left: 50px;
+font-family: 'Concert One', sans-serif;
+font-size: 30px;
+color: black;
+padding-right: 100px;}
+
+.nleft img{width: 300px;
+height: 200px;}
+
+.navbar li :hover{text-decoration: none;
+padding-left: 50px;
+font-family: 'Concert One', sans-serif;
+font-size: 30px;
+color: rgb(93, 93, 93);
+padding-right: 100px;}
+
+
+.body {
+    background: url('https://images.unsplash.com/photo-1555480320-b9fa01a86dd8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 500;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.body1{
+    font-family: 'Neuton', serif;
+    font-size: 100px;
+    position: absolute;
+    padding-left: 100px;}
+.body2{
+    font-family: 'Neuton', serif;
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    padding-left: 100px;
+}    
+
+button{
+    position: absolute;
+    top: 950px;
+    left: 200px;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}   
+.btn1 :hover{
+    position: absolute;
+    top: 950px;
+    left: 200px;
+    background-color: rgb(244, 207, 159);
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}  
+
+.navbar1{
+    display: flex;
+}
+.nbar1left{
+    font-family: 'Concert One', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 1200px;
+    left: 70px;
+}
+.nbar1right{
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 1200px;
+    left: 1000px;
+}
+
+.container{
+    position: absolute;
+    top: 1500px;
+    left: 140px;
+}
+
+.col img{
+    height: 400px;
+    width: 400px;
+}
+
+.text{
+    font-family: 'Neuton', serif;
+    font-size: 30px;
+}
+
+.col :hover{
+    font-family: 'Neuton', serif;
+    font-size: 30px;
+    color: rgb(91, 54, 54);
+    cursor: pointer;
+}
+
+ .containers{
+    position: absolute;
+    top: 2000px;
+    left: 500px;
+} 
+
+.col1 img{
+    height: 400px;
+    width: 400px;
+} 
+
+
+.page2{
+    position: absolute;
+    top: 2600px;
+    left: 100px;
+}
+
+.up{
+    font-family: 'Neuton', serif;
+    font-size: 60px;
+}
+
+.down{
+    font-family: 'Neuton', serif;
+    font-size: 30px;
+}
+
+
+.input{
+    padding-top: 100px;
+}
+.input ::placeholder{
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+} 
+
+
+
+
+
+  </style>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+    <div class="header">
+        <div class="hright">
+            CALL NOW!!! 123456789
+        </div>
+        <div class="hmiddle">
+            FREE SHIPPING ON PURCHASE OVER $200
+        </div>
+        <div class="hleft">
+            <input type="search" placeholder="SEARCH">
+        </div>
+    </div>
+<hr>
+
+    <div class="navbar">
+        <div class="nleft">
+            <img src="https://img.freepik.com/free-vector/fashion-logo_23-2148558723.jpg?w=996&t=st=1702755117~exp=1702755717~hmac=d0e8ef0403302e27e005a0086bba8f2f6b1eb64312a8df546b671137d191f632" alt="">
+        </div>
+        <div class="nmid">
+            <header>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">PAGES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    
+                </ul>
+            </header>
+        </div>
+    </div>
+
+    <div class="body">
+    <div class="body1">
+        WINTER <br> COLLECTION
+    </div>
+    <div class="body2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br> Obcaecati dignissimos labore non vitae accusantium.
+    </div>
+    </div>
+
+    <div class="btn1">
+        <button> <b>SHOP NOW </b> </button>
+    </div>
+
+
+
+    <div class="page1">
+        <div class="navbar1">
+            <div class="nbar1left">
+                FEATURED PRODUCTS
+            </div>
+            <div class="nbar1right">
+                VIEW ALL PRODUCTS ->
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="container text-center">
+        <div class="row align-items-start">
+
+          <div class="col">
+            <img src="https://images.unsplash.com/photo-1516648064-ee10acfa64db?q=80&w=1763&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <br> <div class="text">WINTER JACKETS</div>
+          </div>
+
+          <div class="col">
+            <img src="https://images.unsplash.com/photo-1484688493527-670f98f9b195?q=80&w=1747&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            " alt="">
+            <br> <div class="text">SCARVES</div>
+          </div>
+
+          <div class="col">
+            <img src="https://images.unsplash.com/photo-1464666495445-5a33228a808e?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <br>  <div class="text">COATS</div>
+          </div>
+
+
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col">
+              
+              <img src="https://images.unsplash.com/photo-1607160199580-1b0c9b736b66?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+              <br>
+              <div class="text">THERMAL WEAR</div>
+            </div>
+            <div class="col">
+              
+              <img src="https://images.unsplash.com/photo-1618830301945-a4b6c5e94c1d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              " alt="">
+              <br>
+              <div class="text">KIDS WEAR</div>
+            </div>
+            <div class="col">
+              
+              <img src="https://images.unsplash.com/photo-1504194921103-f8b80cadd5e4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+              <br>
+              <div class="text">DENIMS</div>
+            </div>
+          </div>
+
+
+      </div>
+
+
+
+
+      
+      </div>
+
+      <div class="page2">
+        <div class="up">
+            GET 25% OFF DISCOUNT COUPONS
+        </div>
+        <br>
+        <div class="down">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius facere non aperiam, consequatur necessitatibus eveniet nulla harum cum id.
+        </div>
+         
+        <div class="input">
+            <input type="email" class="email" placeholder="ENTER YOUR EMAIL" style="font-size: 18pt; height: 80px; width:300px;">
+        </div>
+
+        <div class="btn2">
+            <input type="button" value="SUBSCRIBE NOW" style="font-size: 18pt; height: 80px; width:300px;" >
+        </div>
+    
+        </div>
+
+
+
+
+
+      
+
+
+
+
+
+
+  </body>
+</html>
